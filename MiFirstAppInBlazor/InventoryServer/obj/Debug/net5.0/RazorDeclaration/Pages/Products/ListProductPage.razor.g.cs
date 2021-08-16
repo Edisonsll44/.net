@@ -89,7 +89,7 @@ using InventoryServer.Components.Products;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/page/list")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/product/list")]
     public partial class ListProductPage : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

@@ -29,7 +29,7 @@
                 <tr>
                     <td>@product.ProductId</td>
                     <td>@product.ProductName</td>
-                    <td>@product.Category.CategoryName</td>
+                    <td>@product.Category?.CategoryName</td>
                     <td><a href="product/edit/@product.ProductId">Editar</a></td>
                 </tr>
             }

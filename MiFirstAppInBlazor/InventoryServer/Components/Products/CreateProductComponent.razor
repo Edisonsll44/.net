@@ -31,11 +31,14 @@
         <input type="button" value="Agregar producto" @onclick="SaveProduct" />
     </EditForm>
 </div>
+<div class="alert alert-primary" role="alert">
+    @message
+</div>
 
 @code {
     ProductEntity oProduct = new ProductEntity();
     IList<CategoryEntity> categories = new List<CategoryEntity>();
-
+    string message;
 
     protected override async Task OnInitializedAsync()
     {
@@ -45,8 +48,10 @@
     private void SaveProduct()
     {
         _product.CreateProduct(oProduct);
-        Limpiar();
-        _navigator.NavigateTo("product/list");
+        message = "Producto agregado exitosamente";
+        //Limpiar();
+        //_navigator.NavigateTo("product/list");
+
     }
 
 

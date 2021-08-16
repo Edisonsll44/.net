@@ -111,7 +111,7 @@ using Entities;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 27 "C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\InventoryServer\Components\Products\UpdateProductComponent.razor"
+#line 28 "C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\InventoryServer\Components\Products\UpdateProductComponent.razor"
       
     [Parameter]
     public string productId { get; set; }

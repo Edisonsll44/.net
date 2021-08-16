@@ -111,11 +111,11 @@ using Business;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 35 "C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\InventoryServer\Components\Products\CreateProductComponent.razor"
+#line 38 "C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\InventoryServer\Components\Products\CreateProductComponent.razor"
        
     ProductEntity oProduct = new ProductEntity();
     IList<CategoryEntity> categories = new List<CategoryEntity>();
-
+    string message;
 
     protected override async Task OnInitializedAsync()
     {
@@ -125,8 +125,10 @@ using Business;
     private void SaveProduct()
     {
         _product.CreateProduct(oProduct);
-        Limpiar();
-        _navigator.NavigateTo("product/list");
+        message = "Producto agregado exitosamente";
+        //Limpiar();
+        //_navigator.NavigateTo("product/list");
+
     }
 
 
