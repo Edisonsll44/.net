@@ -1,0 +1,17 @@
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\Business.deps.json
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\Business.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\ref\Business.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\Business.pdb
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\Entities.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\bin\Debug\net5.0\Entities.pdb
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Business\obj\Debug\net5.0\Business.pdb

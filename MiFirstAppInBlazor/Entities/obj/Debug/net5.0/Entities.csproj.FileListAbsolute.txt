@@ -1,0 +1,12 @@
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\bin\Debug\net5.0\Entities.deps.json
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\bin\Debug\net5.0\Entities.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\bin\Debug\net5.0\ref\Entities.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\bin\Debug\net5.0\Entities.pdb
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Me\.net-examples\blazor\.net\MiFirstAppInBlazor\Entities\obj\Debug\net5.0\Entities.pdb

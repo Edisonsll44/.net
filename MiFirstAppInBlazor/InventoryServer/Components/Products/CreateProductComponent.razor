@@ -1,0 +1,57 @@
+﻿@using Entities
+@using Business
+
+@inject IB_Product _product
+@inject IB_Category _category
+@inject NavigationManager _navigator
+
+<div>
+    <EditForm Model="oProduct">
+        <div class="form-group">
+            <label>Referencia:</label>
+            <InputText @bind-Value="oProduct.ProductId" class="form-control" />
+        </div>
+        <div class=" form-group">
+            <label>Nombre del producto:</label>
+            <InputText @bind-Value="oProduct.ProductName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Descripción:</label>
+            <InputTextArea @bind-Value="oProduct.ProductDescription" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Categoría:</label>
+            <InputSelect @bind-Value="oProduct.CategoryId" class=" form-control">
+                @foreach (var category in categories)
+                {
+                    <option value="@category.CategoryId">@category.CategoryName</option>
+                }
+            </InputSelect>
+        </div>
+        <input type="button" value="Agregar producto" @onclick="SaveProduct" />
+    </EditForm>
+</div>
+
+@code {
+    ProductEntity oProduct = new ProductEntity();
+    IList<CategoryEntity> categories = new List<CategoryEntity>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = _category.CategoryList();
+    }
+
+    private void SaveProduct()
+    {
+        _product.CreateProduct(oProduct);
+        Limpiar();
+        _navigator.NavigateTo("product/list");
+    }
+
+
+    private void Limpiar()
+    {
+        oProduct = new ProductEntity();
+    }
+}
