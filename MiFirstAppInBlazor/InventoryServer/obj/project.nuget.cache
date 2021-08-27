@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1j3QCF3nxWAr/a7z0ceGdDklksaaa1IiotaBw8KuAsuQ8stq8gQuZkAPnW+74xXAU9uJPXCzORxcILOHuUCLJw==",
+  "dgSpecHash": "y9n5Y4vU4Qz9vmZav33xpvQLDpmYW94o438K4pNBrfQQkKHh57DConWa3xo0LEoi3lqLBJanx9TpVq6CgOawiw==",
   "success": true,
   "projectFilePath": "C:\\Me\\.net-examples\\blazor\\.net\\MiFirstAppInBlazor\\InventoryServer\\InventoryServer.csproj",
   "expectedPackageFiles": [
