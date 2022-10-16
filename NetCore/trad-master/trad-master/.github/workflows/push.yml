@@ -1,0 +1,9 @@
+name: docker-compose-actions-workflow
+on: push
+jobs:
+  docker-compiler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Compilación
+        run: docker-compose up -d

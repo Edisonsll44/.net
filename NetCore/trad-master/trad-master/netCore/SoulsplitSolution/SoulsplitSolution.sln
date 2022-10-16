@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Capas", "1. Capas", "{6708E650-DDA7-4876-BB0B-7D60A2147938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Aplicacion", "1.2 Aplicacion", "{F3781A03-1E26-459F-8BBA-B6479B6D167E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.Aplicaciones", "Soulsplit.Api.Aplicaciones\Soulsplit.Api.Aplicaciones.csproj", "{F878B52B-7165-498D-9ACD-06C0B493118B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.Contratos", "Soulsplit.Api.Contratos\Soulsplit.Api.Contratos.csproj", "{39AA7D88-C4C8-44B2-BB36-940EC93C7FC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Acceso Datos", "1.3 Acceso Datos", "{C88289A2-18E0-464D-B5CC-594C08732AEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.AccesoDatos", "Soulpslit.Api.AccesoDatos\Soulsplit.Api.AccesoDatos.csproj", "{B0796943-7EE1-4CB7-B5F7-A411050691FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.AccesoDatos.Contratos", "Soulsplit.Api.AccesoDatos.Contratos\Soulsplit.Api.AccesoDatos.Contratos.csproj", "{EB311C06-511A-416B-B70E-1AB1EFBD5C36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 Dependencias genericas", "1.4 Dependencias genericas", "{57CE684F-1F14-4E00-A99E-829FA17EB5BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.ResolucionDependencia", "Soulsplit.Api.Dominio\Soulsplit.Api.ResolucionDependencia.csproj", "{FBE339C6-AA45-4A09-BCFC-0417F56958F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 Servicios Distribuidos", "1.1 Servicios Distribuidos", "{5492C6A7-B43C-4371-BC21-2C15F1B9BCF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.ServiciosDistribuidos", "Soulsplit.Api.ServiciosDistribuidos\Soulsplit.Api.ServiciosDistribuidos.csproj", "{86D8DE25-A73D-4318-BB23-CD55E45281AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.Utilitarios", "Soulsplit.Api.Utilitarios\Soulsplit.Api.Utilitarios.csproj", "{BB1608EA-9524-4AD4-B9F7-FEF5B90D18C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Soulsplit.Api.Validaciones", "Soulsplit.Api.Validaciones\Soulsplit.Api.Validaciones.csproj", "{BDE7221A-EE03-4E50-963C-CE478293915D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5 Email", "1.5 Email", "{682FBB8C-9D6C-43BD-AA20-850C4247C123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soulsplit.Api.Email", "Soulsplit.Api.Email\Soulsplit.Api.Email.csproj", "{51BFD219-9E75-4D78-85EF-5573F3425DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F878B52B-7165-498D-9ACD-06C0B493118B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F878B52B-7165-498D-9ACD-06C0B493118B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F878B52B-7165-498D-9ACD-06C0B493118B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F878B52B-7165-498D-9ACD-06C0B493118B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AA7D88-C4C8-44B2-BB36-940EC93C7FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AA7D88-C4C8-44B2-BB36-940EC93C7FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AA7D88-C4C8-44B2-BB36-940EC93C7FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AA7D88-C4C8-44B2-BB36-940EC93C7FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0796943-7EE1-4CB7-B5F7-A411050691FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0796943-7EE1-4CB7-B5F7-A411050691FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0796943-7EE1-4CB7-B5F7-A411050691FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0796943-7EE1-4CB7-B5F7-A411050691FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB311C06-511A-416B-B70E-1AB1EFBD5C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB311C06-511A-416B-B70E-1AB1EFBD5C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB311C06-511A-416B-B70E-1AB1EFBD5C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB311C06-511A-416B-B70E-1AB1EFBD5C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE339C6-AA45-4A09-BCFC-0417F56958F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE339C6-AA45-4A09-BCFC-0417F56958F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE339C6-AA45-4A09-BCFC-0417F56958F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE339C6-AA45-4A09-BCFC-0417F56958F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D8DE25-A73D-4318-BB23-CD55E45281AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D8DE25-A73D-4318-BB23-CD55E45281AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D8DE25-A73D-4318-BB23-CD55E45281AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D8DE25-A73D-4318-BB23-CD55E45281AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1608EA-9524-4AD4-B9F7-FEF5B90D18C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1608EA-9524-4AD4-B9F7-FEF5B90D18C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1608EA-9524-4AD4-B9F7-FEF5B90D18C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1608EA-9524-4AD4-B9F7-FEF5B90D18C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE7221A-EE03-4E50-963C-CE478293915D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE7221A-EE03-4E50-963C-CE478293915D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE7221A-EE03-4E50-963C-CE478293915D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE7221A-EE03-4E50-963C-CE478293915D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BFD219-9E75-4D78-85EF-5573F3425DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BFD219-9E75-4D78-85EF-5573F3425DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BFD219-9E75-4D78-85EF-5573F3425DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BFD219-9E75-4D78-85EF-5573F3425DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3781A03-1E26-459F-8BBA-B6479B6D167E} = {6708E650-DDA7-4876-BB0B-7D60A2147938}
+		{F878B52B-7165-498D-9ACD-06C0B493118B} = {F3781A03-1E26-459F-8BBA-B6479B6D167E}
+		{39AA7D88-C4C8-44B2-BB36-940EC93C7FC9} = {F3781A03-1E26-459F-8BBA-B6479B6D167E}
+		{C88289A2-18E0-464D-B5CC-594C08732AEE} = {6708E650-DDA7-4876-BB0B-7D60A2147938}
+		{B0796943-7EE1-4CB7-B5F7-A411050691FC} = {C88289A2-18E0-464D-B5CC-594C08732AEE}
+		{EB311C06-511A-416B-B70E-1AB1EFBD5C36} = {C88289A2-18E0-464D-B5CC-594C08732AEE}
+		{57CE684F-1F14-4E00-A99E-829FA17EB5BF} = {6708E650-DDA7-4876-BB0B-7D60A2147938}
+		{FBE339C6-AA45-4A09-BCFC-0417F56958F4} = {57CE684F-1F14-4E00-A99E-829FA17EB5BF}
+		{5492C6A7-B43C-4371-BC21-2C15F1B9BCF8} = {6708E650-DDA7-4876-BB0B-7D60A2147938}
+		{86D8DE25-A73D-4318-BB23-CD55E45281AB} = {5492C6A7-B43C-4371-BC21-2C15F1B9BCF8}
+		{BB1608EA-9524-4AD4-B9F7-FEF5B90D18C5} = {57CE684F-1F14-4E00-A99E-829FA17EB5BF}
+		{BDE7221A-EE03-4E50-963C-CE478293915D} = {F3781A03-1E26-459F-8BBA-B6479B6D167E}
+		{682FBB8C-9D6C-43BD-AA20-850C4247C123} = {6708E650-DDA7-4876-BB0B-7D60A2147938}
+		{51BFD219-9E75-4D78-85EF-5573F3425DFC} = {682FBB8C-9D6C-43BD-AA20-850C4247C123}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B70BF3A-E188-48FD-9FE9-E0BD2BE22060}
+	EndGlobalSection
+EndGlobal

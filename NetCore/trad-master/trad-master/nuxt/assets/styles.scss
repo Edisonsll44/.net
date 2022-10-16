@@ -1,0 +1,61 @@
+/*
+** RTL Mixins including margin, pading, position, border and border radius
+** See documentation https://www.npmjs.com/package/rtl-sass
+*/
+@import '~/node_modules/rtl-sass/src/_rtl.scss';
+
+/*
+**Iconos
+*/
+@import "assets/vendors/flaticon/flaticon.css";
+@import "assets/vendors/flaticon2/flaticon.css";
+@import "assets/vendors/keenthemes-icons/font/ki.css";
+@import "~/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+/*
+** Custom variable
+*/
+@import './variables';
+
+/*
+** Sweet Alert
+*/
+@import "~/node_modules/sweetalert2/src/variables";
+$swal2-confirm-button-background-color:$palette-primary-main;
+$swal2-confirm-button-border-radius:36px;
+$swal2-deny-button-border-radius:36px;
+$swal2-cancel-button-border-radius:36px;
+$swal2-icon-font-family: "Open Sans", sans-serif;
+$swal2-loader-border-color: $palette-secondary-main transparent $palette-secondary-main transparent;
+
+@import '~/node_modules/sweetalert2/src/sweetalert2';
+
+/*
+** Custom mixins
+*/
+@import './mixins';
+
+/*
+** Custom functions
+*/
+@import './functions';
+
+/*
+** Custom media queries
+*/
+@import './media-queries';
+
+/*
+** Commons scss class
+*/
+@import './common';
+
+/*
+** Image API variable
+*/
+@import './url-img';
+
+/*
+** Estilos propios
+ */
+@import './estilos';

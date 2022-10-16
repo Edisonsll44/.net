@@ -1,0 +1,14 @@
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\GrpcServiceExample.exe
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\GrpcServiceExample.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\GrpcServiceExample.deps.json
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\GrpcServiceExample.runtimeconfig.json
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\GrpcServiceExample.pdb
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Google.Protobuf.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Grpc.AspNetCore.Server.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Grpc.Core.Api.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Grpc.Net.Client.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Grpc.Net.ClientFactory.dll
+C:\Me\grpc\GrpcServiceExample\GrpcServiceExample\obj\Release\net6.0\PubTmp\Out\Grpc.Net.Common.dll

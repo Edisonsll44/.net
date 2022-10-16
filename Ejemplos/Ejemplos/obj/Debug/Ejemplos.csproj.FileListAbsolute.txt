@@ -1,0 +1,12 @@
+C:\Users\edison.sanchez.INPSERCOM\source\repos\Ejemplos\Ejemplos\bin\Debug\Ejemplos.dll
+C:\Users\edison.sanchez.INPSERCOM\source\repos\Ejemplos\Ejemplos\bin\Debug\Ejemplos.pdb
+C:\Users\edison.sanchez.INPSERCOM\source\repos\Ejemplos\Ejemplos\obj\Debug\Ejemplos.csprojAssemblyReference.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\Ejemplos\Ejemplos\obj\Debug\Ejemplos.csproj.CoreCompileInputs.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\Ejemplos\Ejemplos\obj\Debug\Ejemplos.dll
+C:\Users\edison.sanchez.INPSERCOM\source\repos\Ejemplos\Ejemplos\obj\Debug\Ejemplos.pdb
+C:\Users\edison.sanchez.INPSERCOM\source\repos\ejemplo-c-sharp\Ejemplos\Ejemplos\bin\Debug\Ejemplos.dll
+C:\Users\edison.sanchez.INPSERCOM\source\repos\ejemplo-c-sharp\Ejemplos\Ejemplos\bin\Debug\Ejemplos.pdb
+C:\Users\edison.sanchez.INPSERCOM\source\repos\ejemplo-c-sharp\Ejemplos\Ejemplos\obj\Debug\Ejemplos.csprojAssemblyReference.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\ejemplo-c-sharp\Ejemplos\Ejemplos\obj\Debug\Ejemplos.csproj.CoreCompileInputs.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\ejemplo-c-sharp\Ejemplos\Ejemplos\obj\Debug\Ejemplos.dll
+C:\Users\edison.sanchez.INPSERCOM\source\repos\ejemplo-c-sharp\Ejemplos\Ejemplos\obj\Debug\Ejemplos.pdb

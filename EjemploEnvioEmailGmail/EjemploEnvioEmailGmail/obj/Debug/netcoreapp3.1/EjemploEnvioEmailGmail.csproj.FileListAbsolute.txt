@@ -1,0 +1,13 @@
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\bin\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.exe
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\bin\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.deps.json
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\bin\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.runtimeconfig.json
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\bin\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.runtimeconfig.dev.json
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\bin\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.dll
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\bin\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.pdb
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.csprojAssemblyReference.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.AssemblyInfoInputs.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.AssemblyInfo.cs
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.csproj.CoreCompileInputs.cache
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.dll
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.pdb
+C:\Users\edison.sanchez.INPSERCOM\source\repos\EjemploEnvioEmailGmail\EjemploEnvioEmailGmail\obj\Debug\netcoreapp3.1\EjemploEnvioEmailGmail.genruntimeconfig.cache

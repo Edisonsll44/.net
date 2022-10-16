@@ -1,0 +1,31 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcServiceExample";
+
+package ejemplo;
+
+// The greeting service definition.
+service Ejemplo {
+  // Sends a greeting
+  rpc Saluda (EjemploHelloRequest) returns (EjemploHelloReply);
+  rpc SaludaInps(GetEmployees) returns(SendReply);
+}
+
+message EjemploHelloRequest {
+  string name = 1;
+  string apellido = 2;
+}
+
+// The response message containing the greetings.
+message EjemploHelloReply {
+  string message = 1;
+}
+
+message GetEmployees {
+  
+}
+
+// The response message containing the greetings.
+message SendReply {
+  repeated string employeNames =1;
+}

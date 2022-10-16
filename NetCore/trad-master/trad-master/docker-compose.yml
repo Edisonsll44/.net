@@ -1,0 +1,75 @@
+version: '3.8'
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:13.2-alpine
+    restart: always
+    expose:
+      - 5432
+    ports:
+      - '1433:5432'
+    environment:
+      POSTGRES_USER: pguser
+      POSTGRES_PASSWORD: pguserpass
+      POSTGRES_DB: trading
+    deploy:
+      mode: replicated
+      replicas: 1
+    volumes:
+      - ./sql/data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+  api:
+    build: ./netCore
+    restart: always
+    # expose:
+    #   - 5000
+    ports:
+      - '5000'
+    environment:
+      ASPNETCORE_URLS : 'http://*:5000'
+      ConnectionStrings: 'Server=postgres;Port=5432;Database=trading;User Id=pguser;Password=pguserpass'
+    command: docker-compose exec app php artisan migrate --seed
+    depends_on:
+      - postgres
+  nuxt:
+    build: ./nuxt
+    restart: always
+    ports:
+      - '3000'
+    # expose:
+    #   - 3000
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      NODE_ENV: production
+      NUXT_ENV_PUSHER_KEY: ddb1612baf5be01b1d16
+      NUXT_ENV_PUSHER_CLUSTER: us2
+    depends_on:
+      - api
+  nginx:
+    image: nginx:alpine
+    hostname: 'nginx'
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/proxy.conf:/etc/nginx/proxy.conf:ro
+      - ./nginx/ssl:/etc/ssl/certs/
+      - ./nginx/logs/:/var/log/nginx/
+    ports:
+      - '80:80'
+      - '443:443'
+    depends_on:
+      - api
+      - nuxt
+    restart: always
+  storage:
+    image: minio/minio
+    ports:
+      - '9000:81'
+    volumes:
+      - ./storage:/data
+    environment:
+      MINIO_ACCESS_KEY: n4RNzQdE9cZAnpsWVc
+      MINIO_SECRET_KEY: Kj2~jB6s{g*'P@;?UM;Sq%LX9n6-\
+    command: server /data
+volumes:
+  sql:

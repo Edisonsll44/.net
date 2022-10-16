@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Soulsplit.Api.ResolucionDependencia</AssemblyName>
+    <RootNamespace>Soulsplit.Api.ResolucionDependencia</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Soulpslit.Api.AccesoDatos\Soulsplit.Api.AccesoDatos.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.AccesoDatos.Contratos\Soulsplit.Api.AccesoDatos.Contratos.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.Aplicaciones\Soulsplit.Api.Aplicaciones.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.Contratos\Soulsplit.Api.Contratos.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.Email\Soulsplit.Api.Email.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.Validaciones\Soulsplit.Api.Validaciones.csproj" />
+  </ItemGroup>
+
+</Project>

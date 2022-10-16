@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Ejemplo.cs \
+obj\Debug\net6.0\Protos/EjemploGrpc.cs: Protos/ejemplo.proto

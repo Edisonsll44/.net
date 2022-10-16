@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+option csharp_namespace ="ConsumerGrpc";
+
+package animals;
+
+service Animals{
+	rpc Get(AnimalsRequest) returns(AnimalsReply);
+}
+
+message AnimalsRequest{}
+
+message AnimalsReply
+{
+	repeated string animals =1;
+}

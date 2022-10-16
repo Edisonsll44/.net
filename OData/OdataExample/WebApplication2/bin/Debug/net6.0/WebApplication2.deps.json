@@ -1,0 +1,760 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WebApplication2/1.0.0": {
+        "dependencies": {
+          "Inpsercom.AccesoDatos": "1.0.0.0",
+          "Inpsercom.Generico": "1.0.0.0",
+          "Inpsercom.Generico.IoC": "1.0.0.0",
+          "Inpsercom.LogicaNegocio": "1.0.0.0"
+        },
+        "runtime": {
+          "WebApplication2.dll": {}
+        }
+      },
+      "Inpsercom.AccesoDatos/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.AccesoDatos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Generico/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Generico.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Generico.IoC/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Generico.IoC.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.LogicaNegocio/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.LogicaNegocio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EntityFramework/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "Inpsercom.AccesoDatos.Contratos/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.AccesoDatos.Contratos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Entidades/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Entidades.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EbissRepositorioGenerico/1.0.0.0": {
+        "runtime": {
+          "EbissRepositorioGenerico.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EbissSpecification/1.0.0.0": {
+        "runtime": {
+          "EbissSpecification.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Google.Apis.Drive.v3/1.40.3.1694": {
+        "runtime": {
+          "Google.Apis.Drive.v3.dll": {
+            "assemblyVersion": "1.40.3.1694",
+            "fileVersion": "1.40.3.1694"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.40.3.0": {
+        "runtime": {
+          "Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.40.3.0",
+            "fileVersion": "1.40.3.0"
+          }
+        }
+      },
+      "Inpsercom.ManejoExcepciones/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.ManejoExcepciones.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Google.Apis/1.40.3.0": {
+        "runtime": {
+          "Google.Apis.dll": {
+            "assemblyVersion": "1.40.3.0",
+            "fileVersion": "1.40.3.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.40.3.0": {
+        "runtime": {
+          "Google.Apis.Core.dll": {
+            "assemblyVersion": "1.40.3.0",
+            "fileVersion": "1.40.3.0"
+          }
+        }
+      },
+      "WebGrease/1.6.5135.21930": {
+        "runtime": {
+          "WebGrease.dll": {
+            "assemblyVersion": "1.6.5135.21930",
+            "fileVersion": "1.6.5135.21930"
+          }
+        }
+      },
+      "EntityFramework.SqlServer/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "WebDriver/4.0.0.0": {
+        "runtime": {
+          "WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "WebDriver.Support/4.0.0.0": {
+        "runtime": {
+          "WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Configuraciones/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Configuraciones.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Notificaciones/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Notificaciones.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Mailer/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Mailer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Exportaciones/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Exportaciones.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Importaciones/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Importaciones.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.ReglasNegocio/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.ReglasNegocio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RestSharp/106.0.0.0": {
+        "runtime": {
+          "RestSharp.dll": {
+            "assemblyVersion": "106.0.0.0",
+            "fileVersion": "106.10.1.0"
+          }
+        }
+      },
+      "EbissEnvioSms/1.0.0.0": {
+        "runtime": {
+          "EbissEnvioSms.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.LogicaNegocio.Condicional/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.LogicaNegocio.Condicional.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VHService/2.0.7561.298": {
+        "runtime": {
+          "VHService.dll": {
+            "assemblyVersion": "2.0.7561.298",
+            "fileVersion": "2.0.7561.298"
+          }
+        }
+      },
+      "EbissPagoEnLinea/1.0.0.0": {
+        "runtime": {
+          "EbissPagoEnLinea.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "JackWFinlay.Jsonize/1.0.9.0": {
+        "runtime": {
+          "JackWFinlay.Jsonize.dll": {
+            "assemblyVersion": "1.0.9.0",
+            "fileVersion": "1.0.9.0"
+          }
+        }
+      },
+      "EbissFirmadorDocumentoElectronico/1.0.0.0": {
+        "runtime": {
+          "EbissFirmadorDocumentoElectronico.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EPPlus/5.4.2.0": {
+        "runtime": {
+          "EPPlus.dll": {
+            "assemblyVersion": "5.4.2.0",
+            "fileVersion": "5.4.2.0"
+          }
+        }
+      },
+      "LazyCache/2.1.3.171": {
+        "runtime": {
+          "LazyCache.dll": {
+            "assemblyVersion": "2.1.3.171",
+            "fileVersion": "2.1.3.171"
+          }
+        }
+      },
+      "AWSSDK.S3/3.3.0.0": {
+        "runtime": {
+          "AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.1.24"
+          }
+        }
+      },
+      "EbissExcelFunction/1.0.0.0": {
+        "runtime": {
+          "EbissExcelFunction.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inpsercom.Mapper/1.0.0.0": {
+        "runtime": {
+          "Inpsercom.Mapper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.3.0.0": {
+        "runtime": {
+          "AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.4"
+          }
+        }
+      },
+      "MsgReader/3.9.0.0": {
+        "runtime": {
+          "MsgReader.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        },
+        "resources": {
+          "da/MsgReader.resources.dll": {
+            "locale": "da"
+          },
+          "de/MsgReader.resources.dll": {
+            "locale": "de"
+          },
+          "es/MsgReader.resources.dll": {
+            "locale": "es"
+          },
+          "fr/MsgReader.resources.dll": {
+            "locale": "fr"
+          },
+          "nl/MsgReader.resources.dll": {
+            "locale": "nl"
+          },
+          "pt/MsgReader.resources.dll": {
+            "locale": "pt"
+          },
+          "pt-BR/MsgReader.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "zh-CN/MsgReader.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "zh-TW/MsgReader.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.5.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.10424"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.5.1.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.10424"
+          }
+        }
+      },
+      "FluentValidation/9.0.0.0": {
+        "runtime": {
+          "FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.5.1.0"
+          }
+        }
+      },
+      "Progress.Messages/10.2.2.1235": {
+        "runtime": {
+          "Progress.Messages.dll": {
+            "assemblyVersion": "10.2.2.1235",
+            "fileVersion": "10.2.2.1235"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.4.9.5": {
+        "runtime": {
+          "HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.4.9.5",
+            "fileVersion": "1.4.9.5"
+          }
+        }
+      },
+      "IKVM.OpenJDK.XML.API/7.2.4630.5": {
+        "runtime": {
+          "IKVM.OpenJDK.XML.API.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "IKVM.OpenJDK.Core/7.2.4630.5": {
+        "runtime": {
+          "IKVM.OpenJDK.Core.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "IKVM.Runtime/7.2.4630.5": {
+        "runtime": {
+          "IKVM.Runtime.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "EbissGeolocalizacion/1.0.0.0": {
+        "runtime": {
+          "EbissGeolocalizacion.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenMcdf/2.2.1.9": {
+        "runtime": {
+          "OpenMcdf.dll": {
+            "assemblyVersion": "2.2.1.9",
+            "fileVersion": "2.2.1.9"
+          }
+        }
+      },
+      "RtfPipe/1.0.0.0": {
+        "runtime": {
+          "RtfPipe.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.5.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.10424"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.5.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.10424"
+          }
+        }
+      },
+      "IKVM.OpenJDK.Util/7.2.4630.5": {
+        "runtime": {
+          "IKVM.OpenJDK.Util.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "IKVM.OpenJDK.Security/7.2.4630.5": {
+        "runtime": {
+          "IKVM.OpenJDK.Security.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      },
+      "IKVM.OpenJDK.Text/7.2.4630.5": {
+        "runtime": {
+          "IKVM.OpenJDK.Text.dll": {
+            "assemblyVersion": "7.2.4630.5",
+            "fileVersion": "7.2.4630.5"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.AccesoDatos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Generico/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Generico.IoC/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.LogicaNegocio/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.AccesoDatos.Contratos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Entidades/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissRepositorioGenerico/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissSpecification/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Drive.v3/1.40.3.1694": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Auth/1.40.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.ManejoExcepciones/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.40.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Core/1.40.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebGrease/1.6.5135.21930": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework.SqlServer/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebDriver/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebDriver.Support/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Configuraciones/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Notificaciones/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Mailer/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Exportaciones/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Importaciones/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.ReglasNegocio/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/106.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissEnvioSms/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.LogicaNegocio.Condicional/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VHService/2.0.7561.298": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissPagoEnLinea/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JackWFinlay.Jsonize/1.0.9.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissFirmadorDocumentoElectronico/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus/5.4.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LazyCache/2.1.3.171": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.S3/3.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissExcelFunction/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inpsercom.Mapper/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MsgReader/3.9.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/6.5.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/6.5.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Progress.Messages/10.2.2.1235": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.4.9.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.OpenJDK.XML.API/7.2.4630.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.OpenJDK.Core/7.2.4630.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.Runtime/7.2.4630.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EbissGeolocalizacion/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenMcdf/2.2.1.9": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RtfPipe/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/6.5.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.5.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.OpenJDK.Util/7.2.4630.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.OpenJDK.Security/7.2.4630.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IKVM.OpenJDK.Text/7.2.4630.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

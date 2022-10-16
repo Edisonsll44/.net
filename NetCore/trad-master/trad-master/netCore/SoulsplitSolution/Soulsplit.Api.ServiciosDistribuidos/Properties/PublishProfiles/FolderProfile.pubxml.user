@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Me\Publicaciones</_PublishTargetUrl>
+    <History>True|2021-04-07T23:40:42.0039318Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SoulsplitConnection">
+      <Value>User ID = postgres%3bPassword=inps1234%3bServer=localhost%3bPort=5432%3bDatabase=SoulsplitCorp%3bIntegrated Security=true%3b Pooling=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VCSo/cs7A+I8jqaq5A774muPNMym1/6uS1yfxO7D0/4IdC2AptfguCDaYEI3ZiSSJDhlVy2dT791jAUqnqwxBw==",
+  "success": true,
+  "projectFilePath": "C:\\Me\\grpc\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edison.sanchez\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Soulsplit.Api.AccesoDatos.Contratos</AssemblyName>
+    <RootNamespace>Soulsplit.Api.AccesoDatos.Contratos</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Enumeraciones\**" />
+    <EmbeddedResource Remove="Enumeraciones\**" />
+    <None Remove="Enumeraciones\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Soulsplit.Api.Utilitarios\Soulsplit.Api.Utilitarios.csproj" />
+  </ItemGroup>
+
+</Project>

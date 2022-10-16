@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "757ee744-940e-4e2d-85a2-390425055b0c": {
+      "ProjectGuid": "757ee744-940e-4e2d-85a2-390425055b0c",
+      "DisplayName": "ServerCola1",
+      "ColorIndex": 0
+    },
+    "a64f8811-44aa-4555-81c2-aaff6b1d1a36": {
+      "ProjectGuid": "a64f8811-44aa-4555-81c2-aaff6b1d1a36",
+      "DisplayName": "GrpcServiceExample",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

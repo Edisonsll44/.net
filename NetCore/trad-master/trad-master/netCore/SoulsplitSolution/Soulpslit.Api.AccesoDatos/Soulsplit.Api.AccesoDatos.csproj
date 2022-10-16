@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Soulsplit.Api.AccesoDatos</AssemblyName>
+    <RootNamespace>Soulsplit.Api.AccesoDatos</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.ReCaptcha" Version="1.2.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Soulsplit.Api.AccesoDatos.Contratos\Soulsplit.Api.AccesoDatos.Contratos.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.Contratos\Soulsplit.Api.Contratos.csproj" />
+    <ProjectReference Include="..\Soulsplit.Api.Utilitarios\Soulsplit.Api.Utilitarios.csproj" />
+  </ItemGroup>
+
+</Project>

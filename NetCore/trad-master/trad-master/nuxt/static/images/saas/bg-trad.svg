@@ -1,0 +1,29 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 640 480">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:url(#Degradado_sin_nombre_21);}</style>
+    <clipPath id="clip-path" transform="translate(10.6 18.67)">
+      <polygon id="SVGID" class="cls-1"
+               points="568.22 157.53 472.62 210.13 507.16 232.13 430.62 358.84 355.06 208.91 242.2 363.42 161.38 246.64 50.59 377.96 71.14 396.23 159.27 291.79 241.6 410.77 350.82 261.25 428.49 415.35 530.27 246.84 564.81 268.83 568.22 157.53"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_21" x1="23.02" y1="537.8" x2="27.33" y2="537.8"
+                    gradientTransform="matrix(148.55, 0, 0, -148.55, -3419.95, 80131.51)"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.03" stop-color="#f8f8f8"/>
+      <stop offset="0.08" stop-color="#e6e6e6"/>
+      <stop offset="0.13" stop-color="#c8c8c8"/>
+      <stop offset="0.19" stop-color="#9f9f9e"/>
+      <stop offset="0.26" stop-color="#6d6d6c"/>
+      <stop offset="0.32" stop-color="#666665"/>
+      <stop offset="0.41" stop-color="#525251"/>
+      <stop offset="0.53" stop-color="#333331"/>
+      <stop offset="0.59" stop-color="#1d1d1b"/>
+      <stop offset="1" stop-color="#1d1d1b"/>
+    </linearGradient>
+  </defs>
+  <title>bg-trad</title>
+  <g class="cls-2" id="angel">
+    <rect class="cls-3" width="640" height="480"/>
+  </g>
+</svg>
